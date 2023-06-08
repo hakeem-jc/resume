@@ -1,33 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     <header className='app__header'>
+      <ul>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Github</a></li>
+      </ul>
+     </header>
+
+     <section className="app__hero">
+      <img src="#" className='app__image' alt="profile"/>
+      <h5 className="app__sub-title">Hi, I'm Hakeem</h5>
+      <h2 className="app__title">Building digital experiences in React and Next.js</h2>
+     </section>
+
+     <section className='app__skills'>
+       <section>Projects Carousel</section>
+     </section>
+
+     <section className='app__skills'>
+       <section>Skills Component</section>
+     </section>
+
+     <section className='app__experience'>
+       <section>Experience Components</section>
+     </section>
+     
     </>
   )
 }
