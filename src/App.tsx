@@ -16,7 +16,7 @@ const App = () => {
      <section className="app__hero">
       <img src={profile} className='app__image' alt="profile"/>
       <h5 className="app__sub-title">Hi, I'm Hakeem</h5>
-      <h2 className="app__title">Building digital experiences in React and Next.js</h2>
+      <h2 className="app__title">Senior Software Developer</h2>
      </section>
 
      <section className='app__skills'>
