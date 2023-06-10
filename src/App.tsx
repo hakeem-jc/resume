@@ -10,10 +10,9 @@ const App = () => {
         <li><a href="#">LinkedIn</a></li>
         <li><a href="#">Github</a></li>
       </ul>
-      {/* TODO - Add mobile menu with icons */}
      </header>
 
-     <section className="app__hero">
+     <section className="app__hero app__section">
       <img src={profile} className='app__image' alt="profile"/>
       <h5 className="app__sub-title">Hi, I'm Hakeem</h5>
       <h2 className="app__title">Senior Software Developer</h2>
@@ -35,4 +34,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
